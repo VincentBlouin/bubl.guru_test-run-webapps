@@ -23,7 +23,7 @@
                 <version>1.4</version>
                 <configuration>
                     <resourceBundles>
-                        <resourceBundle>org.triple_brain.module:triple_brain-search:1.0.0-SNAPSHOT</resourceBundle>
+                        <resourceBundle>org.triple_brain.module:triple_brain-solr-search:1.0.0-SNAPSHOT</resourceBundle>
                     </resourceBundles>
                 </configuration>
                 <executions>
