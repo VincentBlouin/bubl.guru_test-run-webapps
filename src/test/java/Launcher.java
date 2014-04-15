@@ -19,7 +19,7 @@ public class Launcher {
         server = new Server(port);
         HandlerCollection handlers = new HandlerCollection();
 
-        String serviceWebappBasePath = "/home/vince/Projects/triple_brain/webapp/service/src/";
+        String serviceWebappBasePath = "/home/vincent/Projects/triple_brain/webapp/service/src/";
         WebAppContext serviceWebappContext = new WebAppContext(
                 serviceWebappBasePath + "/main/webapp",
                 "/service"
@@ -32,7 +32,7 @@ public class Launcher {
         conf.configure(serviceWebappContext);
 
         WebAppContext mindMapWebappContext = new WebAppContext(
-                "/home/vince/Projects/triple_brain/webapp/mind_map/src/main/webapp",
+                "/home/vincent/Projects/triple_brain/webapp/mind_map/src/main/webapp",
                 "/"
         );
         handlers.addHandler(mindMapWebappContext);
