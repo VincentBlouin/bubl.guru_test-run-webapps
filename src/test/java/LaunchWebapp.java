@@ -1,3 +1,7 @@
+/*
+ * Copyright Vincent Blouin under the Mozilla Public License 1.1
+ */
+
 import org.neo4j.kernel.impl.util.FileUtils;
 import org.triple_brain.service.Launch;
 
