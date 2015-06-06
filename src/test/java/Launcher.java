@@ -35,13 +35,6 @@ public class Launcher {
         );
         conf.configure(serviceWebappContext);
 
-        WebAppContext mindMapWebappContext = new WebAppContext(
-                "/home/vincent/Projects/triple_brain/webapp/mind_map/src/main/webapp",
-                "/"
-        );
-        handlers.addHandler(mindMapWebappContext);
-
-
         server.setHandler(handlers);
     }
 
