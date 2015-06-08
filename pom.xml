@@ -19,58 +19,22 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-remote-resources-plugin</artifactId>
-                <version>1.4</version>
-                <configuration>
-                    <resourceBundles>
-                        <resourceBundle>org.triple_brain.module:triple_brain-solr-search:1.0.0-SNAPSHOT</resourceBundle>
-                    </resourceBundles>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>process</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
-
     <dependencies>
-
-        <dependency>
-            <groupId>org.tuckey</groupId>
-            <artifactId>urlrewritefilter</artifactId>
-            <version>4.0.3</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-security</artifactId>
-            <version>8.1.7.v20120910</version>
+            <version>9.2.11.v20150529</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-webapp</artifactId>
-            <version>8.1.7.v20120910</version>
+            <version>9.2.11.v20150529</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.triple_brain.web</groupId>
             <artifactId>triple_brain-service</artifactId>
-            <version>1.0.0-SNAPSHOT</version>
-            <classifier>sources</classifier>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.triple_brain.web</groupId>
-            <artifactId>triple_brain-mind_map-webapp</artifactId>
             <version>1.0.0-SNAPSHOT</version>
             <classifier>sources</classifier>
             <scope>test</scope>
