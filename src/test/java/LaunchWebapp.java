@@ -2,7 +2,7 @@
  * Copyright Vincent Blouin under the GPL License version 3
  */
 
-import org.triple_brain.service.Launch;
+import guru.bubl.service.Launch;
 
 public class LaunchWebapp {
 
