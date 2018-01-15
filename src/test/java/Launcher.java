@@ -23,7 +23,7 @@ public class Launcher {
         server = new Server(port);
         HandlerCollection handlers = new HandlerCollection();
 
-        String serviceWebappBasePath = "/home/vincent/Projects/triple_brain/webapp/service/src/";
+        String serviceWebappBasePath = "/Users/Simon-Pierre/Desktop/MindRespect/service/src/";
         WebAppContext serviceWebappContext = new WebAppContext(
                 serviceWebappBasePath + "/main/webapp",
                 "/service"
